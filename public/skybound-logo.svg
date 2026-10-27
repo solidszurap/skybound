@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="sb-bg" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#0369A1" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <radialGradient id="sb-glow" cx="30%" cy="22%" r="70%">
+      <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.65" />
+      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="sb-wing" x1="22" y1="88" x2="98" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E0F2FE" />
+      <stop offset="55%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#BAE6FD" />
+    </linearGradient>
+    <linearGradient id="sb-orbit" x1="16" y1="78" x2="104" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#7DD3FC" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#FBBF24" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+
+  <!-- App Icon Squircle Base -->
+  <rect x="4" y="4" width="112" height="112" rx="28" fill="url(#sb-bg)" />
+  <rect x="4" y="4" width="112" height="112" rx="28" fill="url(#sb-glow)" />
+  <rect x="5" y="5" width="110" height="110" rx="27" stroke="#FFFFFF" stroke-opacity="0.38" stroke-width="2" />
+
+  <!-- Globe Latitude & Meridian Rings -->
+  <circle cx="60" cy="62" r="34" stroke="#7DD3FC" stroke-opacity="0.32" stroke-width="1.75" />
+  <ellipse cx="60" cy="62" rx="18" ry="34" stroke="#7DD3FC" stroke-opacity="0.28" stroke-width="1.5" />
+  <ellipse cx="60" cy="62" rx="34" ry="14" stroke="#7DD3FC" stroke-opacity="0.28" stroke-width="1.5" />
+
+  <!-- Orbital Flight Trajectory Arc -->
+  <path
+    d="M18 78 C 34 94, 78 82, 98 34"
+    stroke="url(#sb-orbit)"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- Sculpted Swept Jet Wing & Fuselage -->
+  <path
+    d="M88 26 L44 52 L22 46 L36 60 L48 64 L54 78 L66 64 L92 30 Z"
+    fill="url(#sb-wing)"
+  />
+  <path
+    d="M88 26 L56 58 L48 64 L66 64 L92 30 Z"
+    fill="#BAE6FD"
+    fill-opacity="0.65"
+  />
+
+  <!-- Golden North Star / Compass Spark -->
+  <path
+    d="M96 20 L98.5 26.5 L105 29 L98.5 31.5 L96 38 L93.5 31.5 L87 29 L93.5 26.5 Z"
+    fill="#FBBF24"
+  />
+</svg>

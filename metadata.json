@@ -1,0 +1,8 @@
+{
+  "name": "Skybound",
+  "description": "iOS flight journey tracker, explorer passport with 2D map and 3D globe, collectible country badges, boarding pass wallet, itineraries, and social travel journal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
